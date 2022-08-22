@@ -1,0 +1,107 @@
+body{
+    background-color:bisque;    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.brand img{
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.brand{
+    margin: 10px ;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    justify-content: center;
+    color: white;
+}
+nav{
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    background-color: black;
+    height: 8vh;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+    color: white;
+}   
+.container{
+    min-height: 69vh;
+    font-family: 'Baloo Tammudu 2', cursive;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: black;
+    color: white;
+    margin: 12px auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    
+}
+.bottom{
+    position: sticky;
+    height: 73px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding: 6px;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin: 10px;
+    cursor: pointer;
+}
+.songItem{
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 50px;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+    margin: 10px 0px;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+.songItem img{
+    height: 45px;
+    width: 45px;
+    margin:0px 10px;     
+    border-radius: 24px;
+}
+.timeStamp{
+    margin: 0 10px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-size: 1.8rem;
+    font-family: 'Baloo Tammudu 2', cursive;
+    padding-top: 30px;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity ease-in;
+}
+.songItemPlay{
+    cursor: pointer;
+}
+
